@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    color: gray;
+    font-size: 13px;
+}
+
+body {
+    margin: 30px;
+}
+
+.container {
+    min-width: 900px;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container_flex {
+    display: flex;
+}
+
+@import "blocks/tables.scss";
+@import "blocks/order-book-widget.scss";
