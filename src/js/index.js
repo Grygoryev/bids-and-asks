@@ -1,5 +1,6 @@
 
-$.getJSON('../data.json', function(data) {         
+// $.getJSON('../data.json', function(data) {         
+$.getJSON('https://grygoryev.github.io/bids-and-asks/build/data.json', function(data) {         
   console.log(data);
   const bids = data.bids;
   const asks = data.asks;
