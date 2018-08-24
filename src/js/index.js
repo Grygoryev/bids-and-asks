@@ -61,7 +61,7 @@ $('#bids').scroll(function() {
   $('#asks').scrollTop($('#bids').scrollTop());
 });
 
-$('#asks').scroll(function() {
-  $('#bids').scrollTop($('#asks').scrollTop());
-});
+// $('#asks').scroll(function() {
+//   $('#bids').scrollTop($('#asks').scrollTop());
+// });
 
